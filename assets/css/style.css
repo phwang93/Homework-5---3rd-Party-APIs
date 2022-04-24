@@ -43,26 +43,29 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: darkcyan;
   color: white;
+  font-weight: bold;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: azure;
+  color: midnightblue;
+  font-weight: bolder;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: midnightblue;
+  color: azure;
+  font-weight: bolder;
 }
 
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: darkred;
+  color: whitesmoke;
 }
 
 .saveBtn i:hover {
