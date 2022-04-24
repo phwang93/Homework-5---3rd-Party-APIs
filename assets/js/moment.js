@@ -15,12 +15,28 @@ var existingTodo = localStorage.getItem(hour);
 //prevent exisitingTodo to display "null"
 if (existingTodo === null) {
     existingTodo() = "";
-}
 
-//create timeblocks
+//create timeblocks using bootstrap
 $("#container").append($(`
 <div class="row time-block">
         <div class="hour col-1">${hour}:00</div>
         <textarea name="" id="${hour}" cols="30" rows="3" class="description col-9 ${pastPresentorFuture}">${existingTodo}</textarea>
         <button class="btn saveBtn col-2">Save</button>
     </div>`));
+}
+//create visible timeblocks
+for (var i = 14; i < 28; i++){
+    makeTimeblocks(i);
+}
+
+//display for the currentDay
+var displayCurrentDay = document.querySelector("#currentDay");
+
+//function to displayTime
+function displayTime(){
+    displayCurrentDay.textContent = new Date().toLocaleString();
+    setTimeout(displayTime, 1000);
+}
+
+displayTime;
+
