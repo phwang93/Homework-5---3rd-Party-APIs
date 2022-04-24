@@ -10,8 +10,8 @@ Create a Daily Planner, that with the following:
 - Display Saved Tasks(pulled from localstorage)
 
 2. Github Links:
-Repository: https://github.com/phwang93/Homework-5-3rd-Party-APIs
-Deployed Html: https://phwang93.github.io/Homework-5-3rd-Party-APIs
+- Repository: https://github.com/phwang93/Homework-5-3rd-Party-APIs
+- Deployed Html: https://phwang93.github.io/Homework-5-3rd-Party-APIs
 
 3. Site Preview:
 <p align="center">
