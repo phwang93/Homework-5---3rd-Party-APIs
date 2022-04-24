@@ -1,6 +1,6 @@
 Homework 5 - Day Planner - 3rd Party APIs
 
-Criteria:
+1. Criteria:
 
 Create a Daily Planner, that with the following:
 - Display Current Time Clock - Day/Time
@@ -9,11 +9,11 @@ Create a Daily Planner, that with the following:
 - Functional "Save Button" in order to save Tasks
 - Display Saved Tasks(pulled from localstorage)
 
-Github Links:
+2. Github Links:
 Repository: https://github.com/phwang93/Homework-5-3rd-Party-APIs
 Deployed Html: https://phwang93.github.io/Homework-5-3rd-Party-APIs
 
-Site Preview:
+3. Site Preview:
 <p align="center">
 <img alt="preview" src="./assets/image/screenshot.png">
 </p>
